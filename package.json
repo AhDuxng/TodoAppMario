@@ -7,6 +7,12 @@
     "build": "npm install --prefix backend && npm install --prefix frontend && npm run build --prefix frontend",
     "start": "node index.js"
   },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.1",
+    "express": "^4.22.1",
+    "mongoose": "^8.17.1"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
