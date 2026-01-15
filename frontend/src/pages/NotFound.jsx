@@ -9,7 +9,7 @@ const NotFound = () => {
         className="max-w-full mb-6 w-96"
       />
 
-      <p className="text-xl font-semibold">Bạn đang đi vào vùng cấm địa 🚫</p>
+      <p className="text-xl font-semibold">Bạn đang đi vào trang lỗi</p>
 
       <a
         href="/"
