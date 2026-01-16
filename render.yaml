@@ -2,9 +2,9 @@ services:
   - type: web
     name: todo-api
     runtime: node
-    rootDir: backend
-    buildCommand: npm install
-    startCommand: npm start
+    rootDir: .                 # Đổi từ 'backend' thành '.' (thư mục gốc)
+    buildCommand: npm run build # Sử dụng lệnh build ở package.json gốc để cài đặt và build cả 2
+    startCommand: cd backend && npm start # Vào backend rồi mới start để giữ đúng đường dẫn
     envVars:
       - key: NODE_ENV
         value: production
